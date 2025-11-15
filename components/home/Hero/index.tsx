@@ -27,7 +27,7 @@ function Hero({}: Props) {
       absolute top-0 left-0 w-full h-full bg-black/20"
       ></div>
 
-      <div className="animate-rotate-left-right w-[180px] relative h-20 border-2 border-primary top-20 left-[55%] text-4xl flex items-center justify-center font-yesteryear text-white">
+      <div className="hidden md:flex animate-rotate-left-right w-[180px] relative h-20 border-2 border-primary top-20 left-[55%] text-4xl  items-center justify-center font-yesteryear text-white">
         Booling
         <div>
           <div className="absolute -top-1.5 -left-2 w-4 h-3 bg-white border-2 border-primary"></div>
