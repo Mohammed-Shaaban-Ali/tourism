@@ -132,7 +132,7 @@ function Content({ tripData }: Props) {
           </div>
 
           {/* Itinerary */}
-          <div className="bg-white rounded-2xl shadow-smp-3  md:p-8 border border-gray-300">
+          <div className="bg-white rounded-2xl shadow-sm p-3  md:p-8 border border-gray-300">
             <h3 className="text-2xl font-bold mb-6 text-gray-900">
               Day-by-Day Itinerary
             </h3>

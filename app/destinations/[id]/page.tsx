@@ -1,19 +1,5 @@
 "use client";
 
-import { useState } from "react";
-import {
-  Star,
-  MapPin,
-  Calendar,
-  Users,
-  Check,
-  User,
-  Mail,
-  Award,
-  Shield,
-  Clock,
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { useParams } from "next/navigation";
 import { Destination, getSingleDestination } from "@/constant";
 import Hero from "@/components/destinations/Hero";
